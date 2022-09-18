@@ -1,0 +1,156 @@
+body {
+  /* margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px; */
+  margin: 0;
+  text-align: center;
+  /* centers everthing in the body that DOES not have a width set
+    but if the element in the body is a block and has its width set then 
+    it has to use the AUTO method 
+    */
+    color: #405140;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 4%;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 50px 0 0 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  /* For dynamic font size when user zoom in and out
+    font-size: 100% is 16px so to get 90 px is 562.5% 
+    Another way is em: 16px = 100% = 1em
+    dynamic fontsize will get inherited from parent containers 
+    best now: use rem: dynamic and wont get inherted from parent >>>!!always use rem for fontsize
+    */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #eaf6f6;
+}
+
+/* TOP CONTAINER */
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.avatar {
+  width: 300px;
+}
+
+/* MIDDLE CONTAINER */
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 170px auto;
+  text-align: left;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* float is most commonly used and abused property. should only use for wrapping and not for 
+positioning elements. Better to use margin or position */
+
+.contact-me-desc {
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin: 50px auto;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 11px;
+  background: #14a5aa;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #19c9c9;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 20px;
+  margin-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.foot {
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
