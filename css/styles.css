@@ -75,6 +75,8 @@ a {
 
 .avatar {
   width: 300px;
+  display: block;
+  margin: auto;
 }
 
 /* MIDDLE CONTAINER */
